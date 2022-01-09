@@ -1,0 +1,10 @@
+.link {
+  display: inline-block;
+  font-weight: inherit;
+  font-size: inherit;
+  color: #4295f6;
+  transition: color 0.1s linear;
+  &:hover {
+    color: darken(#4295f6, 10%);
+  }
+}

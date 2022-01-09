@@ -2,21 +2,27 @@
   "name": "investing-site",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "rm -rf .next && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "classnames": "^2.3.1",
+    "invest-kit": "git+ssh://git@github.com:abanin/invest-kit.git",
     "next": "12.0.7",
+    "normalize.css": "^8.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.45.1"
   },
   "devDependencies": {
     "@types/node": "17.0.5",
     "@types/react": "17.0.38",
-    "eslint": "8.5.0",
+    "eslint": "^8.6.0",
     "eslint-config-next": "12.0.7",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "swiper": "^7.4.1",
     "typescript": "4.5.4"
   }
 }
