@@ -3,12 +3,12 @@ import "swiper/css/navigation";
 
 import React from "react";
 import Button from "invest-kit/hydrogen/Button";
+import Card from "invest-kit/hydrogen/Card";
 import Tabs from "invest-kit/hydrogen/Tabs";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Asset from "@/components/Asset";
-import Card from "@/components/Card";
 import Container from "@/components/Container";
 import H2 from "@/components/H2";
 import Section from "@/components/Section";

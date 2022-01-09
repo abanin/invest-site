@@ -1740,7 +1740,7 @@ internal-slot@^1.0.3:
 
 "invest-kit@git+ssh://git@github.com:abanin/invest-kit.git":
   version "1.0.0"
-  resolved "git+ssh://git@github.com:abanin/invest-kit.git#9876b5bc113568168bdd51ffc52d8ddd0745daea"
+  resolved "git+ssh://git@github.com:abanin/invest-kit.git#0d2ca52b34d7161b7ca6114dde0e319fe9f2df76"
   dependencies:
     "@babel/runtime" "^7.15.4"
     classnames "^2.3.1"

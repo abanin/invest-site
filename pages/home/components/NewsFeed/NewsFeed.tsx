@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "invest-kit/hydrogen/Button";
+import CardWithImageOnTop from "invest-kit/hydrogen/CardWithImageOnTop";
 
-import CardWithImageOnTop from "@/components/CardWithImageOnTop";
 import Container from "@/components/Container";
 import H3 from "@/components/H3";
 

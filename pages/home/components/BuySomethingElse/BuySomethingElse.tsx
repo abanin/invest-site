@@ -1,17 +1,26 @@
 import React from "react";
+import Card from "invest-kit/hydrogen/Card";
+import Icon from "invest-kit/hydrogen/Icon";
 import Tabs from "invest-kit/hydrogen/Tabs";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Asset from "@/components/Asset";
-import Card from "@/components/Card";
 import Container from "@/components/Container";
 import H2 from "@/components/H2";
 import Section from "@/components/Section";
 
 import styles from "./styles.module.scss";
 
-const TABS = ["Фонды", "Акции", "Облигации", "***"];
+const TABS = [
+  {
+    label: "Фонды",
+    value: "fonds",
+  },
+  { label: "Акции", value: "shares" },
+  { label: "Облигации", value: "bonds" },
+  { label: <Icon iconName="check" />, value: "more" },
+];
 
 const BuySomethingElse = () => {
   return (
@@ -21,8 +30,8 @@ const BuySomethingElse = () => {
         <Tabs
           className={styles.tabs}
           tabs={TABS}
-          keyAccessor={(tab) => tab}
-          valueFormatter={(tab) => tab}
+          keyAccessor={(tab) => tab.value}
+          valueFormatter={(tab) => tab.label}
         />
         <Swiper
           modules={[Navigation]}

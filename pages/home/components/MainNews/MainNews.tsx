@@ -1,8 +1,8 @@
 import React from "react";
+import Card from "invest-kit/hydrogen/Card";
 import Icon from "invest-kit/hydrogen/Icon";
 import Tabs from "invest-kit/hydrogen/Tabs";
 
-import Card from "@/components/Card";
 import Container from "@/components/Container";
 import H2 from "@/components/H2";
 import Link from "@/components/Link";

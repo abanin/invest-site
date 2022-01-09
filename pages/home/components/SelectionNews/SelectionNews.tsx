@@ -1,8 +1,8 @@
 import React from "react";
+import CardWithImageOnTop from "invest-kit/hydrogen/CardWithImageOnTop";
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import CardWithImageOnTop from "@/components/CardWithImageOnTop";
 import Container from "@/components/Container";
 import H3 from "@/components/H3";
 
