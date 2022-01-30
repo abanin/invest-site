@@ -1,0 +1,78 @@
+.page {
+  padding-top: 60px;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.currency {
+  padding: 6px 24px;
+  background-color: #e6effd;
+  color: #444444;
+  border: none;
+  margin-right: 10px;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.currency-active {
+  background-color: #4295f6;
+  color: white;
+}
+
+.currency-list {
+  display: flex;
+  align-items: center;
+}
+
+.currency-title {
+  margin-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  // width: 100%;
+  margin-bottom: 48px;
+
+  & > * {
+    width: 100%;
+    margin-right: 24px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.calculate-button {
+  display: flex;
+  justify-content: center;
+}
+
+.card-title {
+  color: #b4b4b4;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.card-amount {
+  color: #444444;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.card-amount--primary {
+  color: #4295f6;
+}
+
+.card {
+  width: 100%;
+  display: block;
+  margin-right: 24px;
+  &:last-child {
+    margin-right: 0;
+  }
+}

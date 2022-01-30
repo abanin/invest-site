@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.1",
-    "invest-kit": "git+ssh://git@github.com:abanin/invest-kit.git",
+    "invest-kit": "git+https://github.com/abanin/invest-kit.git",
     "next": "12.0.7",
     "normalize.css": "^8.0.1",
     "react": "17.0.2",
