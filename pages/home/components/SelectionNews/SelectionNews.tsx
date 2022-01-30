@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import Container from "@/components/Container";
 import H3 from "@/components/H3";
+import NewsCard from "@/components/NewsCard";
 
 import styles from "./styles.module.scss";
 
@@ -23,12 +24,7 @@ const SelectionNews = () => {
         {Array.from({ length: 10 }).map((_item, index) => {
           return (
             <SwiperSlide key={index}>
-              <CardWithImageOnTop
-                className={styles.selectionCard}
-                style={{ width: "100%", height: 306 }}
-              >
-                Hello
-              </CardWithImageOnTop>
+              <NewsCard />
             </SwiperSlide>
           );
         })}

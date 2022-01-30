@@ -3,6 +3,8 @@
 }
 
 .mainNew {
+  padding: 0;
+  position: relative;
   height: 360px;
   margin-top: 24px;
   display: flex;
@@ -32,6 +34,7 @@
 }
 
 .preview {
+  padding: 20px;
   display: flex;
   padding-right: 100px;
   flex-direction: column;
@@ -56,4 +59,9 @@
   display: inline-flex;
   margin-top: auto;
   margin-right: auto;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
 }

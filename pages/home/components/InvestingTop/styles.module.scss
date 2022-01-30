@@ -2,14 +2,60 @@
   margin-top: 48px;
 }
 
-.swiper {
-  margin-top: 24px;
+.card {
+  flex-direction: column;
 }
 
-.card {
-  background-color: lighten(#4295f6, 20%);
+.swiper {
+  padding: 10px;
+  margin: 14px -10px -10px -10px;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating {
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4295f6;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+}
+
+.price {
+  margin-top: 10px;
+  display: block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #444444;
+}
+
+.graph {
+  margin-top: auto;
 }
 
 .btn {
   margin: 24px auto 0 auto;
+}
+
+.bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 18px;
+  color: #b4b4b4;
 }

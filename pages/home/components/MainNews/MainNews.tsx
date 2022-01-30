@@ -2,11 +2,13 @@ import React from "react";
 import Card from "invest-kit/hydrogen/Card";
 import Icon from "invest-kit/hydrogen/Icon";
 import Tabs from "invest-kit/hydrogen/Tabs";
+import Image from "next/image";
 
 import Container from "@/components/Container";
 import H2 from "@/components/H2";
 import Link from "@/components/Link";
 import Section from "@/components/Section";
+import MainImage from "./image.png";
 
 import styles from "./styles.module.scss";
 
@@ -42,9 +44,9 @@ const MainNews = () => {
               Читать
             </Link>
           </div>
-
-          <div style={{ flexGrow: 1, width: "50%", backgroundColor: "red" }} />
-          {/* <Image src="#" alt="preview" /> */}
+          <div className={styles.image}>
+            <Image width={410} height={360} src={MainImage.src} alt="preview" />
+          </div>
         </div>
       </Card>
     </Container>

@@ -2,10 +2,40 @@
   margin-top: 48px;
 }
 
-.swiper {
-  margin-top: 24px;
+.card {
+  flex-direction: column;
 }
 
-.card {
-  background-color: lightblue;
+.swiper {
+  padding: 10px !important;
+  margin: 14px -10px -10px -10px !important;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.bottom {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 18px;
+  color: #b4b4b4;
+}
+
+.perc {
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #444444;
 }
